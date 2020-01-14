@@ -1,0 +1,10 @@
+.gutter-30 {
+    margin-right: -15px;
+    margin-left: -15px;
+
+    >.col,
+    >[class*='col-'] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}

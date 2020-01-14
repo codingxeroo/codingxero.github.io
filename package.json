@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "scripts": {
+    "watch": "node_modules/.bin/gulp --color --gulpfile=gulpfile.js watch",
+    "dev": "node_modules/.bin/gulp --color --gulpfile=gulpfile.js build",
+    "prod": "node_modules/.bin/gulp --color --env=prod --gulpfile=gulpfile.js build"
+  },
+  "browserslist": [
+    "last 4 versions"
+  ],
+  "dependencies": {
+    "axios": "0.18.1",
+    "bootstrap": "~4",
+    "jquery": "~3",
+    "lodash": "~4",
+    "popper.js": "^1.16.0",
+    "swiper": "^5.1.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.5",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if-else": "^1.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "merge-stream": "^2.0.0",
+    "minimist": "^1.2.0",
+    "node-sass": "^4.13.0",
+    "webpack": "^4.39.2",
+    "webpack-stream": "^5.2.1"
+  }
+}
