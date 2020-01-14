@@ -76,10 +76,42 @@ body,
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.6); }
 
-.gutter-30 {
-  margin-right: -15px;
-  margin-left: -15px; }
-  .gutter-30 > .col,
-  .gutter-30 > [class*='col-'] {
-    padding-right: 15px;
-    padding-left: 15px; }
+.gutter-1 {
+  margin-right: -0.125rem;
+  margin-left: -0.125rem; }
+  .gutter-1 > .col,
+  .gutter-1 > [class*='col-'] {
+    padding-right: 0.125rem;
+    padding-left: 0.125rem; }
+
+.gutter-2 {
+  margin-right: -0.25rem;
+  margin-left: -0.25rem; }
+  .gutter-2 > .col,
+  .gutter-2 > [class*='col-'] {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem; }
+
+.gutter-3 {
+  margin-right: -0.5rem;
+  margin-left: -0.5rem; }
+  .gutter-3 > .col,
+  .gutter-3 > [class*='col-'] {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; }
+
+.gutter-4 {
+  margin-right: -0.75rem;
+  margin-left: -0.75rem; }
+  .gutter-4 > .col,
+  .gutter-4 > [class*='col-'] {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem; }
+
+.gutter-5 {
+  margin-right: -1.5rem;
+  margin-left: -1.5rem; }
+  .gutter-5 > .col,
+  .gutter-5 > [class*='col-'] {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem; }
